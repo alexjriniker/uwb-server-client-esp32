@@ -29,7 +29,7 @@ public:
    */
   bool wifi_connected() const;
   /**
-   * @brief registures current device with server
+   * @brief registers current device with server
    *
    * @return `true` - device was successfully registered or was already
    * @return `false` - device was not able to be registered
