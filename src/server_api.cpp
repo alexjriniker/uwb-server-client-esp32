@@ -123,10 +123,10 @@ void ServerApi::add_to_serial_batch(const String &str) {
 
 void ServerApi::send_serial_batch(const char *str) {
   String url = String(API_LIVE_DEVICE_ROUTE) + "/" + DEVICE_ID +
-               API_DEVICE_SERIA_BATCH_ROUTE_PARTIAL;
+               API_DEVICE_SERIAL_BATCH_ROUTE_PARTIAL;
 
 #ifdef ALLOW_SERIAL_DEBUG_SERVER_API
-  Serial.println("\n\nATTEMPTING TO SEND SERIALBATCH");
+  Serial.println("\n\nATTEMPTING TO SEND SERIAL BATCH");
   Serial.println(String("URL: ") + url);
 #endif // ALLOW_SERIAL_DEBUG_SERVER_API
 

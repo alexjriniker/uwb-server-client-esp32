@@ -39,7 +39,7 @@ public:
   /**
    * @brief add serial to server `LiveDevice`
    *
-   * @return true - the serial was succesfully added
+   * @return true - the serial was successfully added
    * @return false - the serial was not able to be added
    */
   bool send_serial(const String &, const char * = DEVICE_ID);

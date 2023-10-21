@@ -7,7 +7,7 @@
 
 #ifdef ALLOW_SERIAL
 
-#define SERIAL_STATUP_DELAY                                                    \
+#define SERIAL_STARTUP_DELAY                                                    \
   200 // wait for x (ms) after `Serial.begin` call to allow the serial monitor
       // to catchup
 
@@ -58,7 +58,7 @@
 //   API_BASE "/live_devices" // METHOD: PUT, PARAMS: id
 
 #define API_DEVICE_SERIAL_ROUTE_PARTIAL "/serial" // METHOD: POST, PARAMS: id
-#define API_DEVICE_SERIA_BATCH_ROUTE_PARTIAL                                   \
+#define API_DEVICE_SERIAL_BATCH_ROUTE_PARTIAL                                   \
   "/serial_batch" // METHOD: POST, PARAMS: id
 
 #endif // __CONFIG_H__
