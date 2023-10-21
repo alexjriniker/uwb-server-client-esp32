@@ -1,5 +1,4 @@
 #include "server_api.h"
-#include <functional>
 
 ServerApi::~ServerApi() { delete serial_batch; }
 ServerApi::ServerApi() : serial_batch{nullptr} {
