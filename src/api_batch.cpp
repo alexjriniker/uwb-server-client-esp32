@@ -13,7 +13,7 @@ ApiBatch::ApiBatch(unsigned int size, const ApiBatchCallback callback,
 
 void ApiBatch::submit() {
   auto payload = prep_cb(items, size);
-  callback(payload.c_strFi());
+  callback(payload.c_str());
 
   index = 0; // rest index back to original position
 }
