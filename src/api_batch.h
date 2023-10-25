@@ -15,7 +15,7 @@ typedef std::function<void(const char *)> ApiBatchCallback;
 typedef std::function<String(ApiBatchItem *, unsigned int)>
     ApiBatchPrepCallback;
 
-typedef ApiBatchItem ApiBatchItem;
+// typedef ApiBatchItem ApiBatchItem;
 
 const ApiBatchPrepCallback API_BATCH_PREP_CALLBACK_DEFAULT =
     [](ApiBatchItem *items, unsigned int size) {
